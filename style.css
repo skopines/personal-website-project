@@ -1,5 +1,5 @@
 img {
-    max-width: 100%;
+    max-width: 30%;
 }
 
 body {
@@ -26,10 +26,6 @@ a {
     max-width: 100%;
 }
 
-.idkColumn {
-    display: block;
-}
-
 .row {
     display: inline-block;
     margin: auto;
@@ -41,6 +37,5 @@ a {
 }
 
 .box {
-    max-width: 30%;
-    display:inline-flex;
+    display: inline;
 }
