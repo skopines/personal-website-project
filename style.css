@@ -1,5 +1,5 @@
 img {
-    max-width: 30%;
+    width: 100%;
 }
 
 body {
@@ -27,7 +27,9 @@ a {
 }
 
 .row {
-    display: inline-block;
+    display: flex;
+    height: 25%;
+    aspect-ratio: 3 / 1;
     margin: auto;
 }
 
@@ -37,5 +39,5 @@ a {
 }
 
 .box {
-    display: inline;
+    flex: 1;
 }
