@@ -100,9 +100,4 @@ function hit(img) {
         img.src = "images/empty.png";
      }
 
-    else if (img.src.includes("images/empty.png")) {
-        img.src = "images/evilSheldon.png";
-        // seperate test
-    }
-
 }
