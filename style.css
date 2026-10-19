@@ -1,9 +1,9 @@
 img {
-    max-width: 30%;
+    max-width: 100%;
 }
 
 body {
-    text-align: center;
+    text-align: center !important;
     background-color: rgb(178, 192, 214);
 }
 
@@ -36,6 +36,12 @@ a {
     margin: auto;
 }
 
-.startButton {
-    color:rgb(79, 83, 117)
+.gameButton {
+    color:rgb(79, 83, 117);
+    text-decoration: underline;
+}
+
+.box {
+    max-width: 30%;
+    display:inline-flex;
 }

@@ -21,27 +21,34 @@
         <div class="idkColumn">
 
             <div class="row">
-                <img src="images/empty.png"/>
-                <img src="images/evilSheldon.png"/>
-                <img src="images/brisket.gif"/>
+                <div class="box"> <img  class="holeOrWtv" id="one" onclick="hit(this);" src="images/brisket.gif"/> </div>
+                <div class="box"> <img  class="holeOrWtv" id="two" onclick="hit(this);" src="images/empty.png"/> </div>
+                <div class="box"> <img  class="holeOrWtv" id="three" onclick="hit(this);" src="images/empty.png"/> </div>
             </div>
             <div class="row">
-                <img src="images/empty.png"/>
-                <img src="images/evilSheldon.png"/>
-                <img src="images/empty.png"/>
+                <div class="box"> <img  class="holeOrWtv" id="four" onclick="hit(this);" src="images/empty.png"/> </div>
+                <div class="box"> <img  class="holeOrWtv" id="five" onclick="hit(this);" src="images/empty.png"/> </div>
+                <div class="box"> <img  class="holeOrWtv" id="six" onclick="hit(this);" src="images/empty.png"/> </div>
             </div>
             <div class="row">
-                <img src="images/brisket.gif"/>
-                <img src="images/brisket.gif"/>
-                <img src="images/brisket.gif"/>
+                <div class="box"> <img  class="holeOrWtv" id="seven" onclick="hit(this);" src="images/empty.png"/> </div>
+                <div class="box"> <img  class="holeOrWtv" id="eight" onclick="hit(this);" src="images/empty.png"/> </div>
+                <div class="box"> <img class="holeOrWtv" id="nine" onclick="hit(this);" src="images/empty.png"/> </div>
             </div>
 
         </div>
 
-        <p class="startButton"> <u> Start! </u> </p>
+        <p id="score">
+          Points: 
+        </p>
+
+        <p class="gameButton" id="gameText" onclick="gameStart();"> Start! </p>
 
         <p>
           Whack the evil Sheldons into the ground. Avoid the briskets!
+          
+
+          You can spam the restart button to make it "higher difficulty". if u want the "difficulty" to reset click a brisket and play again. Idk how to fix the restart/difficulty thing it was unintentional.
         </p>
 
         <a href="index.html"><u> Go back </u></a>
